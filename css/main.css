@@ -6,29 +6,51 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 h1, h2 {
   color: #cc1465;
   font-family: 'Sigmar One', cursive;
+  text-align: center;
+}
+
+.nav li {
+  display: inline-block;
 }
 
 .nav {
+  text-align: center;
+}
+
+.nav a {
+  font-family: Georgia, sans-serif ;
+  padding: .2em .5em .3em;
+  text-decoration: none;
   background-color: #b2a212;
   border-radius: 4px ;
   color: #fff;
-  font-family: Georgia, sans-serif ;
-  padding: .6em;
-  text-decoration: none;
+  display: inline-block;
 }
 
-.nav:hover {
+.nav a:hover {
   background-color: #b20952
 }
 
 header {
-  padding: .5em;
+  padding: .75em;
   background-color: #ffe500;
+  margin: 0;
 }
 
 h1 {
   margin: 0;
+}
+
+footer {
+  padding: .75em;
+  background-color: #ffe500;
+  margin: 0;
+  text-align: center;
 }
