@@ -52,7 +52,7 @@ h2 {
 }
 
 .nav a:hover {
-  background-color: #b20953;
+  background-color: #cc1465;
 }
 
 header {
@@ -84,4 +84,8 @@ footer {
   text-align: left;
   padding: 0;
   background-color: #fff;
+}
+
+.current {
+  background-color: #b20953;
 }
