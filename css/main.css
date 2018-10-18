@@ -25,15 +25,18 @@ h1, h2 {
 h2 {
   font-size: 2em;
   padding: 0;
+  text-align: left;
 }
 
 .nav li {
   display: inline-block;
-  margin: 0 .5em 0 0;
+  margin-bottom: .3em;
 }
 
 .nav {
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 .nav a {
@@ -47,11 +50,10 @@ h2 {
 }
 
 .nav a:hover {
-  background-color: #b20952;
+  background-color: #b20953;
 }
 
 header {
-  padding: .75em;
   background-color: #ffe500;
   margin: 0;
 }
@@ -78,6 +80,6 @@ footer {
 
 .move {
   text-align: left;
-  padding: 0 .75em;
+  padding: 0;
   background-color: #fff;
 }
