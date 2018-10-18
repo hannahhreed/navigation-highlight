@@ -12,12 +12,16 @@ h1, h2 {
 }
 
 .nav {
-  background-color: ;
-  border-radius: ;
-  color: #b2a212;
-  font-family: ;
-  padding: ;
+  background-color: #b2a212;
+  border-radius: 4px ;
+  color: #fff;
+  font-family: Georgia, sans-serif ;
+  padding: .6em;
   text-decoration: none;
+}
+
+.nav:hover {
+  background-color: #b20952
 }
 
 header {
