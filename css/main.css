@@ -7,7 +7,8 @@ html {
 }
 
 img {
-  width: 100%
+  width: 100%;
+  display: block;
 }
 
 body {
@@ -17,7 +18,13 @@ body {
 h1, h2 {
   color: #cc1465;
   font-family: "Sigmar One", cursive;
+  font-size: 3em;
   text-align: center;
+}
+
+h2 {
+  font-size: 2em;
+  padding: 0;
 }
 
 .nav li {
@@ -30,17 +37,17 @@ h1, h2 {
 }
 
 .nav a {
-  font-family: Georgia, sans-serif ;
+  font-family: Georgia, sans-serif;
   padding: .2em .5em .3em;
   text-decoration: none;
   background-color: #b2a212;
-  border-radius: 4px ;
+  border-radius: 4px;
   color: #fff;
   display: inline-block;
 }
 
 .nav a:hover {
-  background-color: #b20952
+  background-color: #b20952;
 }
 
 header {
