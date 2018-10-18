@@ -12,5 +12,19 @@ h1, h2 {
 }
 
 .nav {
+  background-color: ;
+  border-radius: ;
+  color: #b2a212;
+  font-family: ;
+  padding: ;
   text-decoration: none;
+}
+
+header {
+  padding: .5em;
+  background-color: #ffe500;
+}
+
+h1 {
+  margin: 0;
 }
