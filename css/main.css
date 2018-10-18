@@ -1,5 +1,7 @@
 html {
   box-sizing: border-box;
+  line-height: 1.5;
+  font-family: Georgia, serif;
 }
 
 *, *::before, *::after {
@@ -18,12 +20,12 @@ body {
 h1, h2 {
   color: #cc1465;
   font-family: "Sigmar One", cursive;
-  font-size: 3em;
+  font-size: 3rem;
   text-align: center;
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 2rem;
   padding: 0;
   text-align: left;
 }
@@ -40,13 +42,13 @@ h2 {
 }
 
 .nav a {
-  font-family: Georgia, sans-serif;
   padding: .2em .5em .3em;
   text-decoration: none;
   background-color: #b2a212;
   border-radius: 4px;
   color: #fff;
   display: inline-block;
+  font-size: 1.125rem;
 }
 
 .nav a:hover {
